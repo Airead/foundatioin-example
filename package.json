@@ -9,6 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "foundation-sites": "^6.1.1"
+    "async": "^1.5.1",
+    "browser-sync": "^2.11.0",
+    "foundation-sites": "^6.1.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "run-sequence": "^1.1.5"
   }
 }
