@@ -1,0 +1,22 @@
+@import 'foundation';
+@include foundation-everything;
+.menu.sub-nav {
+    background: #f2f2f2;
+    padding: .9rem .5rem .9rem 0;
+    li {
+        color: #999;
+        font-size: 0.77778rem;
+        padding-left: 0.88889rem;
+        & > a {
+        	border-radius: 3px;
+            cursor: default;
+            font-weight: normal;
+			padding: 0.16667rem 0.88889rem;
+        }
+        & a:hover,
+        &.active a {
+            background: #008cba;
+            color: #fff;
+        }
+    }
+}
