@@ -57,11 +57,12 @@ gulp.task('build', function(done) {
 });
 
 gulp.task('sass', function(done) {
-    gulp.src('./public/**/*.scss')
+    gulp.src('./public/**/app.scss')
         .pipe(sass({
             includePaths: PATHS.sass
         }).on('error', sass.logError))
-        .pipe(gulp.dest('./public'));
+        .pipe(gulp.dest('./public'))
+        .pipe(browser.reload({stream: true}));
     done();
 });
 

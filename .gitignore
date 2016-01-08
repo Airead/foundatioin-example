@@ -3,4 +3,4 @@ node_modules
 npm-debug.log
 .idea/
 compile.sh
-**/*/scss/*.css
+app.css
