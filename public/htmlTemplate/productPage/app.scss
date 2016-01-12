@@ -1,0 +1,8 @@
+@import 'foundation';
+@include foundation-everything;
+
+.top-bar {
+	.button {
+		padding: $menu-item-padding;
+	}
+}
